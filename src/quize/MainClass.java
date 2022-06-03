@@ -11,7 +11,6 @@ public class MainClass {
 		Scanner input = new Scanner(System.in);
 		
 		int num; // 메뉴선택 
-		String name, id, pw, birth, email; 
 		
 		while(true) {
 			
@@ -35,6 +34,27 @@ public class MainClass {
 			case 2 : 
 				t.login();
 				break;
+				
+			case 3 :
+				t.findPw();
+				break;
+				
+			case 4 :
+				t.changePw();
+				break;
+				
+			case 5 :
+				t.write();
+				break;
+				
+			case 6 :
+				t.writeCheck();
+				break;
+				
+			case 7 :
+				t.logout();
+				
+			
 			}
 				
 		}
